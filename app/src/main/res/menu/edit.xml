@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mahathun.sensorapp.EditActivity" >
+    <item android:id="@+id/addChair"
+        android:title="Add a Chair"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/addTable"
+        android:title="Add a Table"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/saveChanges"
+        android:title="Save Changes"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+</menu>

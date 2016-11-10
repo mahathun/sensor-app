@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mahathun.sensorapp.CanvasActivity" >
+
+    <item android:id="@+id/save"
+        android:title="Save"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/edit"
+        android:title="Edit"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/viewDetails"
+        android:title="View Customer Details"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/shareImage"
+        android:title="Send a snapshot"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+
+
+
+
+
+
+</menu>

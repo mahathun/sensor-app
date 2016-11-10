@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mahathun.sensorapp.EditActivity"
+    android:padding="0dp">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgMap"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="0dp" />
+
+        <LinearLayout
+            android:id="@+id/top_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight=".5"
+            android:background="#00000000"
+
+            android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/chair1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair6"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair7"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair8"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair9"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/chair10"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/red_ball"
+                    android:visibility="invisible" />
+
+
+
+
+
+
+
+
+
+                <ImageView
+                    android:id="@+id/table1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+                <ImageView
+                    android:id="@+id/table10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/blue_rect"
+                    android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
